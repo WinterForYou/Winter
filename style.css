@@ -1,0 +1,51 @@
+:root{
+    --main: #050505;
+    --main-light: #323232;
+    --blue-dark: #0D7377;
+    --blue-light: #14FFEC;
+}
+
+.main-color{
+    background-color: var(--blue-dark);
+}
+
+.main-light-color{
+    color: var(--blue-light);
+}
+
+.dark-prime{
+    background-color: var(--main);
+}
+
+.text-light-prime{
+    color: var(--main-light);
+}
+
+.nav-item .nav-link:hover{
+    color: yellow;
+    border-bottom: yellow;
+    transition: 0.5s;
+} 
+
+.nav-item .nav-link{
+    border-bottom: 1px solid yellow;
+}
+.text-justify{
+    text-align: justify;
+}
+
+
+
+.bg-yellow{
+    background-color: rgb(100, 100, 7);
+}
+
+.w-10{
+    width: 100px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        color: red;
+    }
+}
